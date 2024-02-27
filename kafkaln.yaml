@@ -1,7 +1,12 @@
-name: kafkalm
-parameters:
-  # Reference any HF model or a local file here
-  model: huggingface://phires/KafkaLM-7B-German-V0.1-GGUF/kafkalm-7b-german-v0.1.Q3_K_M.gguf
-  temperature: 0.2
-  top_k: 40
-  top_p: 0.95
+name: "kafkalm"
+
+config_file: |
+  backend: llama
+  parameters:
+    model: kafkalm-7b-german-v0.1.Q3_K_M.gguf
+    
+files:
+- filename: "kafkalm-7b-german-v0.1.Q3_K_M.gguf"
+  sha256: "6a9dc401c84f0d48996eaa405174999c3a33bf12c2bfd8ea4a1e98f376de1f15"
+  uri: "https://huggingface.co/phires/KafkaLM-7B-German-V0.1-GGUF/resolve/main/kafkalm-7b-german-v0.1.Q3_K_M.gguf"
+  
