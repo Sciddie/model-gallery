@@ -4,6 +4,16 @@ config_file: |
   backend: llama
   parameters:
     model: kafkalm-7b-german-v0.1.Q3_K_M.gguf
+  template:
+    chat: kafka-chat-message
+
+prompt_templates:
+- name: "kafka-chat-message"
+  content: |
+    {{.Input}}
+
+    ASSISTANT:
+    
     
 files:
 - filename: "kafkalm-7b-german-v0.1.Q3_K_M.gguf"
