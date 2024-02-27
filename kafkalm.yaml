@@ -7,6 +7,6 @@ config_file: |
     
 files:
 - filename: "kafkalm-7b-german-v0.1.Q3_K_M.gguf"
-  sha256: "6a9dc401c84f0d48996eaa405174999c3a33bf12c2bfd8ea4a1e98f376de1f15"
+  sha256: "c829e08ea749dec7fe4ceefff7d73bf3bbd8d64997a5d906846b409be73be5e1"
   uri: "https://huggingface.co/phires/KafkaLM-7B-German-V0.1-GGUF/resolve/main/kafkalm-7b-german-v0.1.Q3_K_M.gguf"
   
