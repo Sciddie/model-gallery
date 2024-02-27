@@ -1,0 +1,7 @@
+name: kafkalm
+parameters:
+  # Reference any HF model or a local file here
+  model: huggingface://phires/KafkaLM-7B-German-V0.1-GGUF/kafkalm-7b-german-v0.1.Q3_K_M.gguf
+  temperature: 0.2
+  top_k: 40
+  top_p: 0.95
