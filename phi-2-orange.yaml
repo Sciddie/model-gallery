@@ -1,0 +1,11 @@
+name: "phi-2-orange"
+
+config_file: |
+  backend: llama
+  parameters:
+    model: phi-2-orange.Q4_K_M.gguf
+    
+files:
+- filename: "phi-2-orange.Q4_K_M.gguf"
+  uri: "https://huggingface.co/TheBloke/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q4_K_M.gguf"
+  
