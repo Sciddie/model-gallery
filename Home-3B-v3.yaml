@@ -4,6 +4,8 @@ config_file: |
   backend: llama
   parameters:
     model: Home-3B-v3.q4_k_m.gguf
+    temperature: 0.1
+    top_p: 1.0
 
 files:
 - filename: "Home-3B-v3.q4_k_m.gguf"
