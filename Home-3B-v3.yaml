@@ -1,12 +1,12 @@
-name: "dolphin-mixtral"
+name: "home-llm"
 
 config_file: |
   backend: llama
   parameters:
-    model: dolphin-2.5-mixtral-8x7b.Q4_K_M.gguf
+    model: Home-3B-v3.q4_k_m.gguf
 
 files:
-- filename: "dolphin-2.5-mixtral-8x7b.Q4_K_M.gguf"
-  sha256: "ee4474c3f6f9c20d7ba738ab63c7c19d3e1471749a72e8624e5b9db0c827b525"
-  uri: "https://huggingface.co/TheBloke/dolphin-2.5-mixtral-8x7b-GGUF/resolve/main/dolphin-2.5-mixtral-8x7b.Q4_K_M.gguf"
+- filename: "Home-3B-v3.q4_k_m.gguf"
+  sha256: "b3d1c9eaeca6266dc7f57934cd99b348c7665fa2a44a89aac8a7103eaf790ce8"
+  uri: "https://huggingface.co/acon96/Home-3B-v3-GGUF/resolve/main/Home-3B-v3.q4_k_m.gguf"
   
