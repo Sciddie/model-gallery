@@ -1,0 +1,12 @@
+- url: "github:Sciddie/model-gallery/Home-3B-v3.yaml"
+  name: "home-llm"
+  license: other
+- url: "github:Sciddie/model-gallery/dolphin-mixtral.yaml"
+  name: "dolphin-mixtral"
+  license: other
+- url: "github:Sciddie/model-gallery/kafkalm.yaml"
+  name: "kafkalm"
+  license: other
+- url: "github:Sciddie/model-gallery/phi-2-orange.yaml"
+  name: "phi-2-orange"
+  license: other
